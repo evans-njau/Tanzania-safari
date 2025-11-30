@@ -55,7 +55,7 @@ Content related to Tanzanian tourism includes:
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/tanzania-safari.git
+git clone https://github.com/evans-njau/Tanzania-safari.git
 cd tanzania-safari
 
 ## Install PHP dependencies:
