@@ -57,32 +57,33 @@ Clone the repository:
 ```bash
 git clone https://github.com/evans-njau/Tanzania-safari.git
 cd tanzania-safari
-
+```
 ## Install PHP dependencies:
 ```bash
 composer install
-
+```
 
 ## Install frontend dependencies (if using Vite/NPM):
 ```bash
 npm install
 npm run dev
-
+```
 
 ## Set up your environment variables:
 ```bash
 cp .env.example .env
 php artisan key:generate
-
+```
 
 ## Run database migrations:
 ```bash
 php artisan migrate
-
+```
 
 ## Start the local server:
+```bash
 php artisan serve
-
+```
 
 ## Access the app at: http://localhost:8000
 
