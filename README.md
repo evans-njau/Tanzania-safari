@@ -52,40 +52,40 @@ Content related to Tanzanian tourism includes:
 
 ## Installation
 
-Clone the repository:
+**Clone the repository:**
 
 ```bash
 git clone https://github.com/evans-njau/Tanzania-safari.git
 cd tanzania-safari
 ```
-## Install PHP dependencies:
+**Install PHP dependencies:**
 ```bash
 composer install
 ```
 
-## Install frontend dependencies (if using Vite/NPM):
+**Install frontend dependencies (Vite/NPM):**
 ```bash
 npm install
 npm run dev
 ```
 
-## Set up your environment variables:
+**Set up your environment variables:**
 ```bash
 cp .env.example .env
 php artisan key:generate
 ```
 
-## Run database migrations:
+**Run database migrations:**
 ```bash
 php artisan migrate
 ```
 
-## Start the local server:
+**Start the local server:**
 ```bash
 php artisan serve
 ```
 
-## Access the app at: http://localhost:8000
+**Access the app at:** http://localhost:8000
 
 # Usage
 
@@ -97,23 +97,30 @@ Save favorite destinations to your account
 
 # Technologies
 
-Backend: PHP 8.x, Laravel
+**Backend:** PHP 8.x, Laravel
 
-Frontend: Blade templates, HTML, CSS, JS, optionally Vue.js/React
+**Frontend:** Blade templates, JS, Boostrap, CSS
 
-Database: MySQL / SQLite / PostgreSQL
+**Database:*** MySQL 
 
-Version Control: Git & GitHub
+**Version Control:** Git & GitHub
 
 # Contributing
 
-Fork the repository
+**Fork the repository**
 
-Create a feature branch: git checkout -b feature/your-feature
+**Create a feature branch:** 
+```bash
+git checkout -b feature/your-feature
+```
 
-Commit your changes: git commit -m "Add feature"
-
-Push to the branch: git push origin feature/your-feature
-
-Open a Pull Request
+**Commit your changes:**
+```bash
+ git commit -m "Add feature"
+```
+***Push to the branch:***
+```bash
+ git push origin feature/your-feature
+```
+**Open a Pull Request**
 
